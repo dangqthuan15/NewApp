@@ -48,7 +48,7 @@ public class HomeFragment extends Fragment {
         rcvItem.setLayoutManager(linearLayoutManager);
         itemAdapter = new ItemAdapter(getListItem());
         rcvItem.setAdapter(itemAdapter);
-
+        //Thuận cmt
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(nMainActivity,DividerItemDecoration.VERTICAL);
         rcvItem.addItemDecoration(itemDecoration);
         return nview;
